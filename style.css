@@ -23,7 +23,7 @@ html, body {
 
 /*--------------- typewriter effect --------------- */
 .line {
-     width: 28em;
+     width: 24em;
      top: 50%;
      margin: auto;
      border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -44,7 +44,7 @@ html, body {
      }
 
      to {
-          width: 28em;
+          width: 24em;
      }
 }
 
@@ -254,9 +254,9 @@ nav #menu li a:hover {
      font-size: 15px;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 768px) {
      .header h1 {
-          font-size: 22px;
+          font-size: 18px;
      }
 
      .header h2 {
