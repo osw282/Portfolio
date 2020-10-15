@@ -38,6 +38,7 @@ html, body {
           blinkTextCussor 500ms steps(40) infinite normal;
 }
 
+/*Typer writer width */
 @keyframes typewriter {
      from {
           width: 0;
