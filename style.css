@@ -242,6 +242,7 @@ nav #menu li a:hover {
 }
 
 .hero h1 {
+     font-size: 25px;
      font-weight: lighter;
      text-align: center;
      letter-spacing: -2px;
