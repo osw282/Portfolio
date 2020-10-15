@@ -23,7 +23,8 @@ html, body {
 
 /*--------------- typewriter effect --------------- */
 .line {
-     width: 35em;
+     font-size: 25px;
+     width: 30em;
      top: 50%;
      margin: auto;
      border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -45,7 +46,7 @@ html, body {
      }
 
      to {
-          width: 30em;
+          width: 28em;
      }
 }
 
@@ -56,7 +57,7 @@ html, body {
           }
 
           to {
-               width: 30em;
+               width: 28em;
           }
      }
 }
