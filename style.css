@@ -23,8 +23,7 @@ html, body {
 
 /*--------------- typewriter effect --------------- */
 .line {
-     font-size: 25px;
-     width: 30em;
+     width: 24em;
      top: 50%;
      margin: auto;
      border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -39,25 +38,24 @@ html, body {
           blinkTextCussor 500ms steps(40) infinite normal;
 }
 
-/*Typer writer width */
 @keyframes typewriter {
      from {
           width: 0;
      }
 
      to {
-          width: 28em;
+          width: 24em;
      }
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 768px) {
      @keyframes typewriter {
           from {
                width: 0;
           }
 
           to {
-               width: 28em;
+               width: 23em;
           }
      }
 }
@@ -242,7 +240,6 @@ nav #menu li a:hover {
 }
 
 .hero h1 {
-     font-size: 25px;
      font-weight: lighter;
      text-align: center;
      letter-spacing: -2px;
@@ -257,7 +254,7 @@ nav #menu li a:hover {
      font-size: 15px;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 768px) {
      .header h1 {
           font-size: 22px;
      }
